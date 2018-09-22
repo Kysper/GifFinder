@@ -1,9 +1,10 @@
 
 $(document).ready(function () {
-  buttonArray = [];
-
+  buttonArray = ["videogames","games","boardgames","d&d","halo","neverwinter","warcraft","esports","dragonage","unity",];
+  createButtons();
   $("#click-add").on('click', function () {
    var inputSearch = $("#button-name-add").val();
+   
     buttonArray.push(inputSearch);
     if(inputSearch != ""){
     createButtons();
@@ -70,6 +71,8 @@ $(document).ready(function () {
     for (var i = 0; i < buttonArray.length; i++) {
 
       var buttons = $('<button class="spawned-buttons">')
+      
+
      
       buttons.attr('data-name', buttonArray[i]);
       buttons.text(buttonArray[i]);
