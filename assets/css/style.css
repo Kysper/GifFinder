@@ -41,10 +41,11 @@ input
     margin:5 auto;
     top:50px;
     left:25%;
-    width:50%;
+    width:60%;
     background:gray;
     border: 5px dashed black;
     position:relative;
+    overflow:auto
 }
 #click-add
 {
@@ -60,6 +61,7 @@ img
 {
     margin:0 auto;
     position:relative;
-    left:20%;
+    left:0%;
     border: 5px dashed black;
+    overflow:auto;
 }
