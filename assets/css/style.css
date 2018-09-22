@@ -1,0 +1,65 @@
+h1
+{
+    text-align:center;
+}
+
+body
+{
+    background:gray;
+    width:70%;
+    height:100%;
+}
+#button-spawner
+{
+    width:100%;
+    height:40%;
+    background:gray;
+    border: 5px dashed black;
+}
+
+.spawned-buttons
+{
+    font-size:30px;
+    color:white;
+    background:black;
+    border-radius:20%;
+    overflow:auto;
+}
+
+input
+{
+    font-size:30px;
+    color:white;
+    position:absolute;
+    left:36%;
+    height: 40px;
+    background:black;
+    width:30%;
+}
+.gif-display
+{   
+    margin:5 auto;
+    top:50px;
+    left:25%;
+    width:50%;
+    background:gray;
+    border: 5px dashed black;
+    position:relative;
+}
+#click-add
+{
+    font-size:30px;
+    color:white;
+    background:black;
+    border-radius:20px;
+    position:relative;
+    left:95%;
+}
+
+img
+{
+    margin:0 auto;
+    position:relative;
+    left:20%;
+    border: 5px dashed black;
+}
